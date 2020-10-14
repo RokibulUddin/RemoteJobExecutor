@@ -22,8 +22,8 @@ You can download the compiled binary executable from *bin* folder.
 | executable 
 
 | Windows x64
-| remotejobexecutor.exe
+| https://github.com/RokibulUddin/RemoteJobExecutor/raw/master/bin/remotejobexecutor.exe[remotejobexecutor.exe]
 
 | Linux x64
-| remotejobexecutor
+| https://github.com/RokibulUddin/RemoteJobExecutor/raw/master/bin/remotejobexecutor[remotejobexecutor]
 |===
