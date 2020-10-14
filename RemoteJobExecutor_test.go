@@ -1,4 +1,4 @@
-package remotejob
+package main
 
 import (
 	"fmt"
