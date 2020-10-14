@@ -1,0 +1,14 @@
+== RemoteJobExecutor ==
+A go program that execute commands on a remote machine using ssh.
+
+=== Usage ===
+`_remote_exec -f <task file path>_` +
+Where task file contains instruction in following format, one command for line: +
+`host name, ip, username, password, the command to execute` +
+for example: 
+
+----
+My machine1, 192.168.1.20, root, rootpassword, shoutdown -h now
+My machine2, 192.168.1.21, myuser, pass2, shoutdown -h now
+----
+This program is made to be used in combination with `crontab` to automatize bulk operation on multiple machines. 
